@@ -130,7 +130,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_8qu31y5', 'template_tru9vka', form.current, 'fV7ffVdsMncF4aVKr')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -138,7 +138,12 @@ const Contact = () => {
         console.log(error.text);
       });
   }
-
+//  Service id= fV7ffVdsMncF4aVKr
+// emailjs.send('service_8qu31y5', 'template_tru9vka', {
+//   from_name: name,
+//   to_name: "Zerubabel", // Optional: Specify the recipient's name if known
+//   message: message
+// })
 
 
   return (
@@ -154,13 +159,23 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
+      
         <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+  open={open}
+  autoHideDuration={3000}
+  onClose={() => setOpen(false)}
+  message="Email sent successfully!"
+  ContentProps={{
+    style: {
+      backgroundColor: 'green',
+      color: 'white',
+      textAlign: 'center',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  }}
+/>
+
       </Wrapper>
     </Container>
   )
