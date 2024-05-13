@@ -1,8 +1,6 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import { GitHub } from '@mui/icons-material';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -88,7 +86,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishav Chanda</Logo>
+        <Logo>Zerubabel Jember</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -97,14 +95,14 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
+         
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display"><GitHub /></SocialMediaIcon>
+         
         </SocialMediaIcons>
-        <Copyright>
-          &copy; 2023 Rishav Chanda. All rights reserved.
-        </Copyright>
+        {/* <Copyright>
+          &copy; 2024 Zerubabel Jember. All rights reserved.
+        </Copyright> */}
 
       </FooterWrapper>
     </FooterContainer>
