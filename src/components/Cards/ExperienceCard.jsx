@@ -34,7 +34,7 @@ text-overflow: ellipsis;
 `
 
 const Card = styled.div`
-    width: 650px;
+    width: 510px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     padding: 12px 16px;
@@ -76,10 +76,12 @@ const Top = styled.div`
 `
 
 const Image = styled.img`
-    height: 50px;
-    background-color: #000;
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
     border-radius: 10px;
     margin-top: 4px;
+
     @media only screen and (max-width: 768px){
         height: 40px;
     }
