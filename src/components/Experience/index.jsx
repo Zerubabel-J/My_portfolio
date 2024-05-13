@@ -10,6 +10,11 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from '../Cards/ExperienceCard';
 import { experiences } from '../../data/constants';
 
+import { skills } from '../../data/constants';
+import _default from '../../themes/default';
+
+import './style.css'
+
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -72,7 +77,34 @@ const TimelineSection = styled.div`
     gap: 12px;
 `;
 
+// const TimelineGrid = styled.div`
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     justify-content: center;
+//     item-align: center;
+//     gap: 20px;
+//     @media (min-width: 1100px) {
+//         grid-template-columns: 1fr 1fr;
+//     }
+// `;
 
+const TimelineGrid = styled.div`
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1100px; /* Added max-width */
+    margin: 0 auto; /* Center the grid horizontally */
+    @media (min-width: 1100px) {
+        grid-template-columns: 1fr 1fr;
+    }
+`;
+const TimelineItemWrapper = styled.div`
+    padding: 5px; /* Add padding to each grid item */
+    // box-sizing: border-box; /* Ensure padding doesn't affect the overall width */
+width: 40%;
+`;
 
 const index = () => {
     return (
@@ -84,23 +116,29 @@ const index = () => {
                 </Desc>
                 <TimelineSection>
                     <Timeline>
-                        {experiences.map((experience,index) => (
-                            <TimelineItem>
-                                <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
-                                </TimelineSeparator>
-                                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <ExperienceCard experience={experience}/>
-                                </TimelineContent>
-                            </TimelineItem>
-                        ))}
+                        <TimelineGrid>
+                            {experiences.map((experience, index) => (
+                                <TimelineItem key={index}>
+                                    <TimelineSeparator>
+                                        <TimelineDot variant="outlined" color="secondary" />
+                                        {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    </TimelineSeparator>
+                                    <TimelineContent>
+                                        <TimelineItemWrapper>
+                                            <ExperienceCard experience={experience}/>     
+                                        </TimelineItemWrapper>
+                                    </TimelineContent>
+                                </TimelineItem>
+                            ))}
+                        </TimelineGrid>
                     </Timeline>
-
                 </TimelineSection>
             </Wrapper>
         </Container>
-    )
+    );
 }
 
 export default index
+
+
+
