@@ -84,22 +84,30 @@ export const Divider = styled.div`
     width: 1.5px;
     background: ${({ theme }) => theme.primary};
 `
-
-
 export const CardContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 28px;
-    flex-wrap: wrap;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-gap: 32px;
-    // grid-auto-rows: minmax(100px, auto);
-    // @media (max-width: 960px) {
-    //     grid-template-columns: repeat(2, 1fr);
-    // }
-    // @media (max-width: 640px) {
-    //     grid-template-columns: repeat(1, 1fr);
-    // }
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 1250px; /* Added max-width */
+    margin: 0 auto; /* Center the container horizontally */
+    @media (min-width: 1100px) {
+        grid-template-columns: 1fr 1fr;
+    }
 `;
+// export const CardContainer = styled.div`
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 28px;
+//     flex-wrap: wrap;
+//     // display: grid;
+//     // grid-template-columns: repeat(3, 1fr);
+//     // grid-gap: 32px;
+//     // grid-auto-rows: minmax(100px, auto);
+//     // @media (max-width: 960px) {
+//     //     grid-template-columns: repeat(2, 1fr);
+//     // }
+//     // @media (max-width: 640px) {
+//     //     grid-template-columns: repeat(1, 1fr);
+//     // }
+// `;
