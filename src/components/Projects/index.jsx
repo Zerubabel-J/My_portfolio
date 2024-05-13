@@ -20,8 +20,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+        I've been involved in various projects. Here are a few examples, and you can view them live.
         </Desc>
         
         <CardContainer>

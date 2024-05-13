@@ -10,10 +10,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from '../Cards/ExperienceCard';
 import { experiences } from '../../data/constants';
 
-import { skills } from '../../data/constants';
 import _default from '../../themes/default';
-
-import './style.css'
 
 const Container = styled.div`
     display: flex;
@@ -121,7 +118,7 @@ const index = () => {
                                 <TimelineItem key={index}>
                                     <TimelineSeparator>
                                         <TimelineDot variant="outlined" color="secondary" />
-                                        {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                        {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
                                     </TimelineSeparator>
                                     <TimelineContent>
                                         <TimelineItemWrapper>

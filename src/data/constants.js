@@ -15,9 +15,6 @@ export const Bio = {
     github: "https://github.com/Zerubabel-J",
     resume: "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/zerubabel-jember-53b7552a2/",
-    twitter: "https://twitter.com/RishavChanda",
-    insta: "https://www.instagram.com/rishav_chanda/",
-    facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills = [{
@@ -101,7 +98,7 @@ export const skills = [{
 
 export const experiences = [{
         id: 0,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+        img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAMAAADeQm2wAAABAlBMVEX///////75+fr+///v7O+8ssSbkrGlpL3e3uXb0deliqCzobTd2OLg3+urrsh6hbGvtszy8O/HpqyyiJfOucTIz+N3jL2HlrvM0d7mz9DHlZmuqb/s7/WpttffubbQiYbIvs3dzNXDx9iBlcL4+fuOm8Hq6urv0c/ZlJHn3eCvkaP03d/sVVP3kI7tY2LoMTDxureatNv/6+vRhXzxqqSGoMzP1+nzfn76//+Ae48/PVhOT17nFRXy9Pjos7DLzNM3L1kxMkiUlZ5tZoEAACNdXHDsCQj6zMzsPD5xiL7JjIukgZXwbnC7en7d3t24horBrbz8+7X7+aLzw0jyskP494aU34ToAAABY0lEQVR4AXWRhULDMBQA7yVzd60wGoq7SxnuDvv/T8GCy8Vz8fAFQYT/UfyJBmLxRDIl/DU/ncnmyBeKpZ+KcqVaw1JvNFt8gGp3OjEgF+8WWjFw3EbJAQRRnu+VgVhmqJfuDQfDgKkHIyHA6BggjE9MTk1Nz8zOzRfs6gHAwiKCVtXJ2UkcmFpaboHgriDAotFCr7Y6t7a+sRmqrZUREIIIAbY9oJaeWejvbOzuMZtaBlRgr1v2wc7cPzgM5WjFBUolLGPjQDU2ewwsnBwHDphTLEyeac34eXt15mJm9Xi+DtRLWDRn4wixTH+83XYaK4BpwLtVl0oLuWw5vMoVEAjsPezU9jVY2S8AL5fRfFCpWRk+zyR/ivCV6/THsk4j+vnX1XTsRcYL5tRBftqJbPZq/CrXDCJ+KuAmW74K80UDINj+2zutBRGIUGIUglitubt/GAiOiaLnpI0xkeM46qWpeALH0Sb5aRZtdAAAAABJRU5ErkJggg==",
         role: "Frontend Developer",
         company: "INSA",
         date: "July 2022 - October 2022",
@@ -116,15 +113,17 @@ export const experiences = [{
             "CSS",
             "JavaScript",
         ],
-        doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+
     },
     {
         id: 1,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+        img: "https://zerubabel-forum.netlify.app/assets/evangadi_fav_icon-CFC3H2Hw.png",
         role: "Fullstack Development Bootcamp",
         company: "EvangadiTech Inc",
         date: "Aug 2023 - Feb 2024",
-        desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+        desc: `Certified by EvangadiTech as a Full Stack Developer specializing in the MERN 
+        stack (MongoDB, Express.js, React.js, Node.js), I've completed an intensive program focusing on 
+        dynamic web application development. With hands-on experience in both front-end and back-end technologies`,
         skills: [
             "ReactJS",
             "Redux",
@@ -141,14 +140,41 @@ export const experiences = [{
     },
     {
         id: 2,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+        img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAMFBMVEVHcEz25bHwv2busUPz15jvqzLwyXzvuFXwvmPvtk/yyX3utEzvu1zwwGfwqy7vrzvVWZWOAAAADnRSTlMACm7rH5g6rHvDTtuXV5hmHTQAAADLSURBVCiRtZJJEgMhCEVRjGM33P+2Acc2ZWWTiiv0UcD/CKDHeNjOdjUczLplfG2QiGOPXSL6hER4a3QxnSBRAc81OEEGSz/CsAnjbxDqkB3WsWfRUHyVV6EKjmg7s9wKZVQoVnlUWU5txD6M5EbIrURrbIDmQT+bj+EX5EudLeuBII7M5GRT0ujGUSlD7yE1TWBJvYesOPZXx+cmpckKbimVhGWCjOmeNqTNvrn4o/HpP/s8QP2evhxhcmtJH1C9WovfoX3ewPWv8AZM+RKkFt7epAAAAABJRU5ErkJggg==",
         role: "Frontend Developer and IT Team Member",
         company: "Bank of Abyssinia",
         date: "January 2023 - April 2024",
         desc: `Contributing to different projects and working on the bank's community engagement website.
          I have been working on the front-end of the website using React.js and Material UI.
           I have also been a part of the IT team, where I have been working on the bank's internal projects.`,
-        doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+        skills: [
+            "ReactJS",
+            "Redux",
+            "NodeJs",
+            "Material UI",
+            "HTML",
+            "CSS",
+            "JavaScript",
+        ],
+    },
+    {
+        id: 2,
+        img: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3NzcrKzU3Nys1NSs3NzcrNzc3NTcuNy01Nys1NzUtNys1Ky01NzUrNSs1Nf/AABEIABwAHAMBIgACEQEDEQH/xAAaAAADAAMBAAAAAAAAAAAAAAAFBgcCAwQA/8QAKhAAAQMCBQQABwEAAAAAAAAAAQIDEQAEBRITITFBUYGRFEJhcaHB8Ab/xAAXAQADAQAAAAAAAAAAAAAAAAABAgMA/8QAGxEAAQUBAQAAAAAAAAAAAAAAAgABAxIxESH/2gAMAwEAAhEDEQA/ALjQLFMc0nC1bKaQAcpddIgnsB+/xRJ29bSFhIWVJJGwHNTG8xNNo4lLilF7R1F9PkzAT2AJG0cTzNQmlq3itFHbVQbW5dUU5btb6zxsmFeh/d6MVO8ExF+zxNCUqVlWYUFDkGY28dOlUFpYdbSscEeqaE7j1LKFX4uLEcN+KVrMOll+IzDhX3FKWI/5K+ffLpbYcBRkVlMZk9oM/TwIHWn2vUTiEtWGQhxIOGYE5YPIfu3NV0DmTsqIJM7nafZ8O9ikotWweSJ971m4w07GogHcGtlEAYcQM3LV/9k=",
+        role: "IS Trainee",
+        company: "Commercial Bank of Ethiopia",
+        date: "December 2022 - February 2023",
+        desc: `As an IS trainee at Commercial Bank of Ethiopia, I gained exposure 
+        to real-world IT operations. During my time, I learned about cybersecurity practices
+         and the significance of documenting processes and procedures. This experience provided me
+          with practical insights into IT systems and processes,
+         laying a strong foundation for my future career growth in the field`,
+        skills: [
+            "Cyber Security",
+            "IT Support",
+            "Hardware/Networking",
+            "Software Maintenance",
+
+        ],
     },
 
 
@@ -156,7 +182,7 @@ export const experiences = [{
 
 export const education = [{
         id: 0,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+        img: `data:image/png;base64,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`,
         school: "Addis Ababa Science and Technology University",
         date: "Oct 2017 - July 2022",
         grade: "3.78/4 CGPA",
@@ -167,10 +193,10 @@ export const education = [{
     },
     {
         id: 1,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-        school: "Addis Ababa Science and Technology University",
-        date: "Oct 2017 - July 2022",
-        grade: "3.78/4 CGPA",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG9D1aRA7BvIEyzXyTAMYQD5aVZNYtpqpbusIDVL2wZQ&s",
+        school: "Akaki PolyTechnic College",
+        date: "Oct 2020 - July 2022",
+        grade: "3.80/4 CGPA",
         desc: `Learned computer hardware and software maintenance, IT support, 
         and hardware/networking services during my time at polytechnic college.
          Familiar in diagnosing technical issues, troubleshooting software, and assisting users.  `,
@@ -182,10 +208,10 @@ export const education = [{
 export const projects = [{
         id: 0,
         title: "Smart Garage (Streamlining Auto Service Operations)",
-        date: "Jun 2023 - Jul 2023",
+        date: "March 2024 - April 2024",
         description: ` Smart Garage: offers a tailored management system for auto service centers,
          streamlining operational workflows in handling employees, customers, orders, vehicles, and services`,
-        image: "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        image: "https://zerubabel-portfolio.vercel.app/assets/img/garage.jpg",
         tags: [
             "React Js",
             "MySQL",
@@ -204,11 +230,11 @@ export const projects = [{
     {
         id: 1,
         title: "Evangadi Community Engagement Platform",
-        date: "Jun 2023 - Jul 2023",
+        date: "Feb 2024 - March 2024",
         description: `Developed a community forum platform, 
         empowering Evangadi community members to create accounts, participate in discussions,
          and share ideas effectively.`,
-        image: "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        image: "https://zerubabel-portfolio.vercel.app/assets/img/evangadi_forum.jpg",
         tags: [
             "React Js",
             "MySQL",
@@ -227,12 +253,12 @@ export const projects = [{
     {
         id: 2,
         title: "Amazon Clone Project",
-        date: "Jun 2023 - Jul 2023",
+        date: "Jan 2024 - Feb 2023",
         description: `Our Amazon clone project is a feature-rich e-commerce platform mirroring the 
         functionality of the original site. It boasts a user-friendly interface for browsing, adding to cart, 
         and securely purchasing a wide array of products. Users enjoy a seamless shopping experience, 
         complemented by features like user authentication and other functionalities`,
-        image: "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        image: "https://zerubabel-portfolio.vercel.app/assets/img/amazon.jpg",
         tags: [
             "React Js",
             "Node Js",
@@ -250,12 +276,12 @@ export const projects = [{
     {
         id: 3,
         title: "Netflix Clone Project",
-        date: "Jun 2023 - Jul 2023",
+        date: "Jan 2024 - Feb 2023",
         description: `Built with React, our Netflix clone delivers a sleek, responsive, 
         and user-friendly interface for browsing movies and TV shows. Users can search,
          watch trailers, and enjoy personalized recommendations with authentication integration.
          It offers an immersive streaming experience that seems to the original platform.`,
-        image: "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        image: "https://zerubabel-portfolio.vercel.app/assets/img/netflix_3.webp",
         tags: [
             "React Js",
             "Node Js",

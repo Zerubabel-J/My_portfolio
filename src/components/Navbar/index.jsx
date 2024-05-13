@@ -12,6 +12,7 @@ import {
   MobileMenu,
   MobileNavLogo,
   MobileLink,
+  MobileWrapper
 } from "./NavbarStyledComponent";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
@@ -58,7 +59,8 @@ const Navbar = () => {
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (
-          <MobileMenu isOpen={isOpen}>
+         
+            <MobileMenu isOpen={isOpen}>
             <MobileLink
               href="#about"
               onClick={() => {
@@ -112,6 +114,8 @@ const Navbar = () => {
               Github Profile
             </GitHubButton>
           </MobileMenu>
+        
+          
         )}
       </NavbarContainer>
     </Nav>
