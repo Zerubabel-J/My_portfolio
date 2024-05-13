@@ -61,17 +61,45 @@ const Desc = styled.div`
     }
 `;
 
+// const TimelineSection = styled.div`
+//     width: 100%;
+//     max-width: 1000px;
+//     margin-top: 10px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     gap: 12px;
+//     @media (max-width: 660px) {
+//         align-items: end;
+//     }
+// `;
+
 const TimelineSection = styled.div`
     width: 100%;
     max-width: 1000px;
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
     justify-content: center;
-    gap: 12px;
-    @media (max-width: 660px) {
-        align-items: end;
+    align-items: center;
+    @media (min-width: 1100px) {
+        grid-template-columns: 1fr 1fr;
+    }
+`;
+
+
+const TimelineGrid = styled.div`
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1100px; /* Added max-width */
+    margin: 0 auto; /* Center the grid horizontally */
+    @media (min-width: 1100px) {
+        grid-template-columns: 1fr 1fr;
     }
 `;
 
@@ -86,7 +114,10 @@ const index = () => {
                     My education has been a journey of self-discovery and growth. My educational details are as follows.
                 </Desc>
                 <TimelineSection>
-                    <Timeline>
+                    
+                     <Timeline>
+                        <TimelineGrid>
+
                         {education.map((education,index) => (
                             <TimelineItem >
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
@@ -98,8 +129,10 @@ const index = () => {
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}
+                        </TimelineGrid>
                     </Timeline>
-
+                      
+                      
                 </TimelineSection>
             </Wrapper>
         </Container>
