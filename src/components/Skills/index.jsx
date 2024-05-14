@@ -98,11 +98,11 @@ const Skill = styled.div`
     padding: 10px 36px;
   }
   @media (max-width: 500px) {
-    max-width: 350px;
+    max-width: 335px;
     padding: 10px 36px;
   }
   @media (max-width: 400px) {
-    max-width: 300px;
+    max-width: 205px;
     padding: 10px 36px;
   }
   // @media (max-width: 300px) {

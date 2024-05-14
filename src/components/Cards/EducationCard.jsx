@@ -59,12 +59,12 @@ const Card = styled.div`
     @media only screen and (max-width: 500px){
         padding: 10px;
         gap: 8px;
-        width: 340px;
+        width: 335px;
     }
     @media only screen and (max-width: 400px){
         padding: 10px;
         gap: 8px;
-        width: 290px;
+        width: 285px;
     }
     // @media only screen and (max-width: 300px){
     //     padding: 10px;
