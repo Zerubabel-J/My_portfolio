@@ -12,7 +12,7 @@ import {
   MobileMenu,
   MobileNavLogo,
   MobileLink,
-  MobileWrapper
+  
 } from "./NavbarStyledComponent";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
