@@ -74,16 +74,6 @@ const TimelineSection = styled.div`
     gap: 12px;
 `;
 
-// const TimelineGrid = styled.div`
-//     display: grid;
-//     grid-template-columns: 1fr;
-//     justify-content: center;
-//     item-align: center;
-//     gap: 20px;
-//     @media (min-width: 1100px) {
-//         grid-template-columns: 1fr 1fr;
-//     }
-// `;
 
 const TimelineGrid = styled.div`
     display: grid;
@@ -96,6 +86,8 @@ const TimelineGrid = styled.div`
     @media (min-width: 1100px) {
         grid-template-columns: 1fr 1fr;
     }
+
+    
 `;
 const TimelineItemWrapper = styled.div`
     padding: 5px; /* Add padding to each grid item */

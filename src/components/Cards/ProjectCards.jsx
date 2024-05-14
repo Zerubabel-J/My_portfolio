@@ -36,15 +36,33 @@ const Card = styled.div`
     &:hover ${Button} {
         display: block;
     }
+
+    @media (max-width: 768px) {
+        max-width: 400px;
+        padding: 10px 36px;
+      }
+      @media (max-width: 500px) {
+        max-width: 330px;
+        padding: 10px 36px;
+      }
+      @media (max-width: 400px) {
+        max-width: 200px;
+        padding: 10px 36px;
+      }
+      @media (max-width: 300px) {
+        max-width: 150px;
+        padding: 10px 36px;
+      }
 `
 
 const Image = styled.img`
     width: 100%;
-    height: 250px;
+    max-height: 250px; /* Set the maximum height to maintain aspect ratio */
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
-`
+    box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+`;
+
 
 const Tags = styled.div`
     width: 100%;
