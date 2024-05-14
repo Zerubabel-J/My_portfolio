@@ -59,18 +59,18 @@ const Card = styled.div`
     @media only screen and (max-width: 500px){
         padding: 10px;
         gap: 8px;
-        width: 330px;
+        width: 350px;
     }
     @media only screen and (max-width: 400px){
         padding: 10px;
         gap: 8px;
-        width: 200px;
+        width: 300px;
     }
-    @media only screen and (max-width: 300px){
-        padding: 10px;
-        gap: 8px;
-        width: 150px;
-    }
+    // @media only screen and (max-width: 300px){
+    //     padding: 10px;
+    //     gap: 8px;
+    //     width: 150px;
+    // }
 
 
     &:hover ${Document}{

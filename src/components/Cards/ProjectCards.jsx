@@ -42,17 +42,17 @@ const Card = styled.div`
         padding: 10px 36px;
       }
       @media (max-width: 500px) {
-        max-width: 330px;
+        max-width: 350px;
         padding: 10px 36px;
       }
       @media (max-width: 400px) {
-        max-width: 200px;
+        max-width: 300px;
         padding: 10px 36px;
       }
-      @media (max-width: 300px) {
-        max-width: 150px;
-        padding: 10px 36px;
-      }
+    //   @media (max-width: 300px) {
+    //     max-width: 150px;
+    //     padding: 10px 36px;
+    //   }
 `
 
 const Image = styled.img`
