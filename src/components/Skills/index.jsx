@@ -105,10 +105,10 @@ const Skill = styled.div`
     max-width: 200px;
     padding: 10px 36px;
   }
-  @media (max-width: 300px) {
-    max-width: 150px;
-    padding: 10px 36px;
-  }
+  // @media (max-width: 300px) {
+  //   max-width: 150px;
+  //   padding: 10px 36px;
+  // }
  
 `;
 

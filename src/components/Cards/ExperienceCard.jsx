@@ -64,11 +64,11 @@ const Card = styled.div`
         gap: 8px;
         width: 200px;
     }
-    @media only screen and (max-width: 300px){
-        padding: 10px;
-        gap: 8px;
-        width: 150px;
-    }
+    // @media only screen and (max-width: 300px){
+    //     padding: 10px;
+    //     gap: 8px;
+    //     width: 150px;
+    // }
 
     &:hover ${Document}{
         display: flex;
