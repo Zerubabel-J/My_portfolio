@@ -49,40 +49,6 @@ export const Desc = styled.div`
   }
 `;
 
-// const SkillsContainer = styled.div`
-//   display: flex;
-//   flex-wrap: wrap;
-//   margin-top: 30px;
-//   gap: 30px; /* Gap between columns */
-//   justify-content: space-between;
-//   @media (max-width: 1100px) {
-//     flex-direction: column;
-//   }
-// `;
-
-// Define SkillsColumn here
-// const SkillsColumn = styled.div`
-//   flex: 1; // Take up equal space
-//   margin-right: 50px; /* Margin between columns */
-//   transition: all 0.5s ease-in-out;
-//   &:last-child {
-//     margin-right: 0; /* Remove margin from the last column */
-//   }
-
- 
-//   &:hover {
-//       transform: translateY(-10px);
-//       box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
-//       filter: brightness(1.1);
-//   }
-//   @media (max-width: 1100px) {
-//     margin-right: 0; /* Remove margin for column layout */
-//     margin-bottom: 30px; /* Add margin between columns in column layout */
-//     &:last-child {
-//       margin-bottom: 0; /* Remove margin from the last column in column layout */
-//     }
-//   }
-// `;
 
 const SkillsContainer = styled.div`
   display: flex;
@@ -94,6 +60,7 @@ const SkillsContainer = styled.div`
   margin: 0 auto; /* Center the container horizontally */
   @media (max-width: 1100px) {
     flex-direction: column;
+   
   }
 `;
 
@@ -118,7 +85,6 @@ const SkillsColumn = styled.div`
   }
 `;
 
-
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
@@ -132,10 +98,20 @@ const Skill = styled.div`
     padding: 10px 36px;
   }
   @media (max-width: 500px) {
-    max-width: 330px;
+    max-width: 335px;
     padding: 10px 36px;
   }
+  @media (max-width: 400px) {
+    max-width: 205px;
+    padding: 10px 36px;
+  }
+  // @media (max-width: 300px) {
+  //   max-width: 150px;
+  //   padding: 10px 36px;
+  // }
+ 
 `;
+
 
 const SkillTitle = styled.h2`
   font-size: 28px;

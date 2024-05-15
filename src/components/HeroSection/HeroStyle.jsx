@@ -154,9 +154,9 @@ export const SubTitle = styled.div`
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
-
+  text-align: left;
   @media (max-width: 960px) {
-    text-align: center;
+    text-align: left;
   }
 
   @media (max-width: 640px) {
