@@ -14,7 +14,7 @@ export const Bio = {
     Let's embark on this journey together, shaping a brighter digital future through collaborative development efforts.`,
   github: "https://github.com/Zerubabel-J",
   resume:
-    "https://drive.google.com/file/d/1dxAf25BLaE-1KBXSkyDp1Yv-beH5_qos/view?usp=sharing",
+    "https://drive.google.com/file/d/1RKt0QfHv35USuHVpMxJlM5bhZIs4mKt-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/zerubabel-jember-53b7552a2/",
 };
 
