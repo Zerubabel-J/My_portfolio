@@ -110,6 +110,23 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://scontent.fadd3-1.fna.fbcdn.net/v/t39.30808-1/312377552_3496373190595375_342960098390982633_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=k3bK-2v6rqMQ7kNvgFa1nnv&_nc_ht=scontent.fadd3-1.fna&oh=00_AYBT6wU0Tbzf-Ta1cebINDMb4I33FNUmA0n6Vhi3QrI84Q&oe=667F0678",
+    role: "Bootcamp Instructor",
+    company: "Sage Training Institute",
+    date: "May-2024 - Current",
+    desc: `I am currently a MERN stack instructor at Sage Training Institute, responsible for teaching
+MERN Full Stack Website Development courses.`,
+    skills: [
+      "JavaScript",
+      "ReactJS",
+      "Next.js",
+      "Tailwind css",
+      "NodeJs",
+      "Express.js",
+    ],
+  },
+  {
+    id: 1,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAMAAADeQm2wAAABAlBMVEX///////75+fr+///v7O+8ssSbkrGlpL3e3uXb0deliqCzobTd2OLg3+urrsh6hbGvtszy8O/HpqyyiJfOucTIz+N3jL2HlrvM0d7mz9DHlZmuqb/s7/WpttffubbQiYbIvs3dzNXDx9iBlcL4+fuOm8Hq6urv0c/ZlJHn3eCvkaP03d/sVVP3kI7tY2LoMTDxureatNv/6+vRhXzxqqSGoMzP1+nzfn76//+Ae48/PVhOT17nFRXy9Pjos7DLzNM3L1kxMkiUlZ5tZoEAACNdXHDsCQj6zMzsPD5xiL7JjIukgZXwbnC7en7d3t24horBrbz8+7X7+aLzw0jyskP494aU34ToAAABY0lEQVR4AXWRhULDMBQA7yVzd60wGoq7SxnuDvv/T8GCy8Vz8fAFQYT/UfyJBmLxRDIl/DU/ncnmyBeKpZ+KcqVaw1JvNFt8gGp3OjEgF+8WWjFw3EbJAQRRnu+VgVhmqJfuDQfDgKkHIyHA6BggjE9MTk1Nz8zOzRfs6gHAwiKCVtXJ2UkcmFpaboHgriDAotFCr7Y6t7a+sRmqrZUREIIIAbY9oJaeWejvbOzuMZtaBlRgr1v2wc7cPzgM5WjFBUolLGPjQDU2ewwsnBwHDphTLEyeac34eXt15mJm9Xi+DtRLWDRn4wixTH+83XYaK4BpwLtVl0oLuWw5vMoVEAjsPezU9jVY2S8AL5fRfFCpWRk+zyR/ivCV6/THsk4j+vnX1XTsRcYL5tRBftqJbPZq/CrXDCJ+KuAmW74K80UDINj+2zutBRGIUGIUglitubt/GAiOiaLnpI0xkeM46qWpeALH0Sb5aRZtdAAAAABJRU5ErkJggg==",
     role: "Frontend Developer",
     company: "INSA",
@@ -127,7 +144,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://zerubabel-forum.netlify.app/assets/evangadi_fav_icon-CFC3H2Hw.png",
     role: "Fullstack Development Bootcamp",
     company: "EvangadiTech Inc",
@@ -149,7 +166,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAMFBMVEVHcEz25bHwv2busUPz15jvqzLwyXzvuFXwvmPvtk/yyX3utEzvu1zwwGfwqy7vrzvVWZWOAAAADnRSTlMACm7rH5g6rHvDTtuXV5hmHTQAAADLSURBVCiRtZJJEgMhCEVRjGM33P+2Acc2ZWWTiiv0UcD/CKDHeNjOdjUczLplfG2QiGOPXSL6hER4a3QxnSBRAc81OEEGSz/CsAnjbxDqkB3WsWfRUHyVV6EKjmg7s9wKZVQoVnlUWU5txD6M5EbIrURrbIDmQT+bj+EX5EudLeuBII7M5GRT0ujGUSlD7yE1TWBJvYesOPZXx+cmpckKbimVhGWCjOmeNqTNvrn4o/HpP/s8QP2evhxhcmtJH1C9WovfoX3ewPWv8AZM+RKkFt7epAAAAABJRU5ErkJggg==",
     role: "Frontend Developer and IT Team Member",
     company: "Bank of Abyssinia",
@@ -165,24 +182,6 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
-    ],
-  },
-  {
-    id: 2,
-    img: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3NzcrKzU3Nys1NSs3NzcrNzc3NTcuNy01Nys1NzUtNys1Ky01NzUrNSs1Nf/AABEIABwAHAMBIgACEQEDEQH/xAAaAAADAAMBAAAAAAAAAAAAAAAFBgcCAwQA/8QAKhAAAQMCBQQABwEAAAAAAAAAAQIDEQAEBRITITFBUYGRFEJhcaHB8Ab/xAAXAQADAQAAAAAAAAAAAAAAAAABAgMA/8QAGxEAAQUBAQAAAAAAAAAAAAAAAgABAxIxESH/2gAMAwEAAhEDEQA/ALjQLFMc0nC1bKaQAcpddIgnsB+/xRJ29bSFhIWVJJGwHNTG8xNNo4lLilF7R1F9PkzAT2AJG0cTzNQmlq3itFHbVQbW5dUU5btb6zxsmFeh/d6MVO8ExF+zxNCUqVlWYUFDkGY28dOlUFpYdbSscEeqaE7j1LKFX4uLEcN+KVrMOll+IzDhX3FKWI/5K+ffLpbYcBRkVlMZk9oM/TwIHWn2vUTiEtWGQhxIOGYE5YPIfu3NV0DmTsqIJM7nafZ8O9ikotWweSJ971m4w07GogHcGtlEAYcQM3LV/9k=",
-    role: "IS Trainee",
-    company: "Commercial Bank of Ethiopia",
-    date: "December 2022 - February 2023",
-    desc: `As an IS trainee at Commercial Bank of Ethiopia, I gained exposure 
-        to real-world IT operations. During my time, I learned about cybersecurity practices
-         and the significance of documenting processes and procedures. This experience provided me
-          with practical insights into IT systems and processes,
-         laying a strong foundation for my future career growth in the field`,
-    skills: [
-      "Cyber Security",
-      "IT Support",
-      "Hardware/Networking",
-      "Software Maintenance",
     ],
   },
 ];
@@ -261,6 +260,18 @@ export const projects = [
   },
   {
     id: 2,
+    title: "NABSIL Grain Bank",
+    date: "May 2024 - June 2024",
+    description: `I recently developed a website for a grain bank to enhance its digital presence. The site offers an easy-to-use interface, real-time updates on grain availability, and facilitating efficient operations and better connectivity between farmers and customers.`,
+    image:
+      "https://media.istockphoto.com/id/1200707279/photo/silos-for-cereals-grain-storage.jpg?s=612x612&w=0&k=20&c=UckEiIuSdbgmvLI0TxEBuT3p9I9uu07nu2CaslSELO0=",
+    tags: ["React Js", "Node Js", "Redux", "Material UI", "Bootstrap"],
+    category: "web app",
+    github: "https://github.com/Zerubabel-J/NASIL",
+    webapp: " https://nasil.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Amazon Clone Project",
     date: "Jan 2024 - Feb 2023",
     description: `Our Amazon clone project is a feature-rich e-commerce platform mirroring the 
@@ -280,20 +291,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Zerubabel-J/Amazon_clone",
     webapp: "https://z-amazon-clone.netlify.app",
-  },
-  {
-    id: 3,
-    title: "Netflix Clone Project",
-    date: "Jan 2024 - Feb 2023",
-    description: `Built with React, our Netflix clone delivers a sleek, responsive, 
-        and user-friendly interface for browsing movies and TV shows. Users can search,
-         watch trailers, and enjoy personalized recommendations with authentication integration.
-         It offers an immersive streaming experience that seems to the original platform.`,
-    image: "https://zerubabel-portfolio.vercel.app/assets/img/netflix_3.webp",
-    tags: ["React Js", "Node Js", "Redux", "Material UI", "Bootstrap", "TDBMS"],
-    category: "web app",
-    github: "https://github.com/Zerubabel-J/Netflix_clone_project",
-    webapp: " https://zerubabelnet.netlify.app/",
   },
 ];
 
