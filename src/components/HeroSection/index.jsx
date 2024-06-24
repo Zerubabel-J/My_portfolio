@@ -30,7 +30,6 @@ const HeroSection = () => {
               Hi, I am <br /> {Bio.name}
             </Title>
             <TextLoop>
-              
               <Span>
                 <Typewriter
                   options={{
