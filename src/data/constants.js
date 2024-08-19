@@ -258,20 +258,9 @@ export const projects = [
     github: "https://github.com/Zerubabel-J/Evangadi_Forum_Project",
     webapp: " https://zerubabel-forum.netlify.app/",
   },
+
   {
     id: 2,
-    title: "NABSIL Grain Bank",
-    date: "May 2024 - June 2024",
-    description: `I recently developed a website for a grain bank to enhance its digital presence. The site offers an easy-to-use interface, real-time updates on grain availability, and facilitating efficient operations and better connectivity between farmers and customers.`,
-    image:
-      "https://media.istockphoto.com/id/1200707279/photo/silos-for-cereals-grain-storage.jpg?s=612x612&w=0&k=20&c=UckEiIuSdbgmvLI0TxEBuT3p9I9uu07nu2CaslSELO0=",
-    tags: ["React Js", "Node Js", "Redux", "Material UI", "Bootstrap"],
-    category: "web app",
-    github: "https://github.com/Zerubabel-J/NASIL",
-    webapp: " https://nasil.vercel.app/",
-  },
-  {
-    id: 3,
     title: "Amazon Clone Project",
     date: "Jan 2024 - Feb 2023",
     description: `Our Amazon clone project is a feature-rich e-commerce platform mirroring the 
@@ -292,6 +281,20 @@ export const projects = [
     github: "https://github.com/Zerubabel-J/Amazon_clone",
     webapp: "https://z-amazon-clone.netlify.app",
   },
+  {
+    id: 3,
+    title: "Netflix Clone Project",
+    date: "Jan 2024 - Feb 2023",
+    description: `Built with React, our Netflix clone delivers a sleek, responsive, 
+        and user-friendly interface for browsing movies and TV shows. Users can search,
+         watch trailers, and enjoy personalized recommendations with authentication integration.
+         It offers an immersive streaming experience that seems to the original platform.`,
+    image: "https://zerubabel-portfolio.vercel.app/assets/img/netflix_3.webp",
+    tags: ["React Js", "Node Js", "Redux", "Material UI", "Bootstrap", "TDBMS"],
+    category: "web app",
+    github: "https://github.com/Zerubabel-J/Netflix_clone_project",
+    webapp: " https://zerubabelnet.netlify.app/",
+  },
 ];
 
 export const TimeLineData = [
@@ -301,3 +304,16 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
+
+// {
+//   id: 2,
+//   title: "NABSIL Grain Bank",
+//   date: "May 2024 - June 2024",
+//   description: `I recently developed a website for a grain bank to enhance its digital presence. The site offers an easy-to-use interface, real-time updates on grain availability, and facilitating efficient operations and better connectivity between farmers and customers.`,
+//   image:
+//     "https://media.istockphoto.com/id/1200707279/photo/silos-for-cereals-grain-storage.jpg?s=612x612&w=0&k=20&c=UckEiIuSdbgmvLI0TxEBuT3p9I9uu07nu2CaslSELO0=",
+//   tags: ["React Js", "Node Js", "Redux", "Material UI", "Bootstrap"],
+//   category: "web app",
+//   github: "https://github.com/Zerubabel-J/NASIL",
+//   webapp: " https://nasil.vercel.app/",
+// },
