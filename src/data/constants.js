@@ -6,15 +6,18 @@ export const Bio = {
     "Backend Developer",
     "Programmer",
   ],
-  description: `Greetings! I'm a full stack web developer driven by the challenge of turning complex ideas into user-friendly web applications. I've worked on a variety of web application development projects, both from scratch and adding new functionality to existing ones. 
-    I enjoy sharing ideas and breaking down difficulties into solutions.\n\n
-     Whether it's building a seamless e-commerce platform or crafting an engaging blog, 
-      I'm passionate about building tools that empower users and businesses alike.
-      \n\n
-    Let's embark on this journey together, shaping a brighter digital future through collaborative development efforts.`,
+  // description: `Greetings! I’m a full-stack developer with practical experience in building user-friendly web and mobile applications. I specialize in JavaScript, TypeScript, React.js, Node.js (Express.js), and databases like MongoDB and PostgreSQL. Currently, I’m working at Addis Software, where I develop scalable MERN stack applications and cross-platform mobile apps using React Native.\n\n
+
+  //  Previously, I worked as an IT Officer at the Bank of Abyssinia, where I gained hands-on experience troubleshooting technical issues and delivering IT solutions. I enjoy collaborating with clients and teams to develop applications that solve real-world problems and add value to users.
+
+  // `,
+  description: `Greetings! I’m a full-stack developer with hands-on experience in building user-friendly web and mobile applications. My work involves JavaScript, TypeScript, React.js, Node.js (Express.js), and databases like MongoDB and PostgreSQL. Currently, I’m working at Addis Software, where I develop scalable MERN stack applications and cross-platform mobile apps using React Native.  
+   
+Previously, I worked as an IT Officer at the Bank of Abyssinia, where I gained practical experience troubleshooting technical issues and delivering IT solutions. I enjoy collaborating with clients and teams to create applications that solve real-world problems and provide value to users.`,
+
   github: "https://github.com/Zerubabel-J",
   resume:
-    "https://drive.google.com/file/d/1RKt0QfHv35USuHVpMxJlM5bhZIs4mKt-/view?usp=sharing",
+    "https://drive.google.com/file/d/1YRhFAjKKfFtLgjeAYmB63q3MTRHRRWye/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/zerubabel-jember-53b7552a2/",
 };
 
