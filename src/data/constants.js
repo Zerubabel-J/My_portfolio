@@ -217,6 +217,41 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Arkena Coffee Marketplace: Transforming Coffee Trade",
+    date: "September 2024 - Current",
+    description: ` Arkena Coffee Marketplace connects Ethiopian smallholder producers with global buyers,
+revolutionizing traditional coffee sourcing.`,
+    image:
+      "https://coffeetradecentre.com.au/wp-content/uploads/2024/11/1672809236536.webp",
+    tags: [
+      "React Js",
+      "MySQL",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "Material UI",
+      "JWT Auth",
+      "Bootstrap",
+      "Postman",
+    ],
+    category: "web app",
+    github: " https://arkenacoffee.com/",
+    webapp: "  https://arkenacoffee.com/",
+  },
+  {
+    id: 1,
+    title: "NABSIL Grain Bank",
+    date: "May 2024 - June 2024",
+    description: `I recently developed a website for a grain bank to enhance its digital presence. The site offers an easy-to-use interface, real-time updates on grain availability, and facilitating efficient operations and better connectivity between farmers and customers.`,
+    image:
+      "https://media.istockphoto.com/id/1200707279/photo/silos-for-cereals-grain-storage.jpg?s=612x612&w=0&k=20&c=UckEiIuSdbgmvLI0TxEBuT3p9I9uu07nu2CaslSELO0=",
+    tags: ["React Js", "Node Js", "Redux", "Material UI", "Bootstrap"],
+    category: "web app",
+    github: "https://github.com/Zerubabel-J/NASIL",
+    webapp: " hhttps://nabsilgrainbank.com/",
+  },
+  {
+    id: 2,
     title: "Smart Garage (Streamlining Auto Service Operations)",
     date: "March 2024 - April 2024",
     description: ` Smart Garage: offers a tailored management system for auto service centers,
@@ -238,7 +273,7 @@ export const projects = [
     webapp: " https://zerubabel-smart-garage.netlify.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "Evangadi Community Engagement Platform",
     date: "Feb 2024 - March 2024",
     description: `Developed a community forum platform, 
@@ -262,28 +297,28 @@ export const projects = [
     webapp: " https://zerubabel-forum.netlify.app/",
   },
 
-  {
-    id: 2,
-    title: "Amazon Clone Project",
-    date: "Jan 2024 - Feb 2023",
-    description: `Our Amazon clone project is a feature-rich e-commerce platform mirroring the 
-        functionality of the original site. It boasts a user-friendly interface for browsing, adding to cart, 
-        and securely purchasing a wide array of products. Users enjoy a seamless shopping experience, 
-        complemented by features like user authentication and other functionalities`,
-    image: "https://zerubabel-portfolio.vercel.app/assets/img/amazon.jpg",
-    tags: [
-      "React Js",
-      "Node Js",
-      "Redux",
-      "Material UI",
-      "Bootstrap",
-      "Firebase",
-      "Stripe",
-    ],
-    category: "web app",
-    github: "https://github.com/Zerubabel-J/Amazon_clone",
-    webapp: "https://z-amazon-clone.netlify.app",
-  },
+  // {
+  //   id: 2,
+  //   title: "Amazon Clone Project",
+  //   date: "Jan 2024 - Feb 2023",
+  //   description: `Our Amazon clone project is a feature-rich e-commerce platform mirroring the
+  //       functionality of the original site. It boasts a user-friendly interface for browsing, adding to cart,
+  //       and securely purchasing a wide array of products. Users enjoy a seamless shopping experience,
+  //       complemented by features like user authentication and other functionalities`,
+  //   image: "https://zerubabel-portfolio.vercel.app/assets/img/amazon.jpg",
+  //   tags: [
+  //     "React Js",
+  //     "Node Js",
+  //     "Redux",
+  //     "Material UI",
+  //     "Bootstrap",
+  //     "Firebase",
+  //     "Stripe",
+  //   ],
+  //   category: "web app",
+  //   github: "https://github.com/Zerubabel-J/Amazon_clone",
+  //   webapp: "https://z-amazon-clone.netlify.app",
+  // },
   // {
   //   id: 3,
   //   title: "Netflix Clone Project",
@@ -298,18 +333,6 @@ export const projects = [
   //   github: "https://github.com/Zerubabel-J/Netflix_clone_project",
   //   webapp: " https://zerubabelnet.netlify.app/",
   // },
-  {
-    id: 3,
-    title: "NABSIL Grain Bank",
-    date: "May 2024 - June 2024",
-    description: `I recently developed a website for a grain bank to enhance its digital presence. The site offers an easy-to-use interface, real-time updates on grain availability, and facilitating efficient operations and better connectivity between farmers and customers.`,
-    image:
-      "https://media.istockphoto.com/id/1200707279/photo/silos-for-cereals-grain-storage.jpg?s=612x612&w=0&k=20&c=UckEiIuSdbgmvLI0TxEBuT3p9I9uu07nu2CaslSELO0=",
-    tags: ["React Js", "Node Js", "Redux", "Material UI", "Bootstrap"],
-    category: "web app",
-    github: "https://github.com/Zerubabel-J/NASIL",
-    webapp: " https://nasil.vercel.app/",
-  },
 ];
 
 export const TimeLineData = [
