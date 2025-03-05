@@ -11,9 +11,9 @@ export const Bio = {
   //  Previously, I worked as an IT Officer at the Bank of Abyssinia, where I gained hands-on experience troubleshooting technical issues and delivering IT solutions. I enjoy collaborating with clients and teams to develop applications that solve real-world problems and add value to users.
 
   // `,
-  description: `Greetings! I’m a full-stack developer with hands-on experience in building user-friendly web and mobile applications. My work involves JavaScript, TypeScript, React.js, Node.js (Express.js), and databases like MongoDB and PostgreSQL. Currently, I’m working at Addis Software, where I develop scalable MERN stack applications and cross-platform mobile apps using React Native.  
-   
-Previously, I worked as an IT Officer at the Bank of Abyssinia, where I gained practical experience troubleshooting technical issues and delivering IT solutions. I enjoy collaborating with clients and teams to create applications that solve real-world problems and provide value to users.`,
+  description: `Greetings! I'm a full-stack developer with hands-on experience in building web and mobile applications. I work with JavaScript, TypeScript, React.js, Node.js (Express.js), and databases like MongoDB and PostgreSQL. I currently work as a freelance developer, focusing on developing scalable MERN stack applications and cross-platform mobile apps with React Native.
+
+With two years of experience, I’ve worked on several live projects that are actively running in production. Feel free to check out the project links in the projects section. I welcome challenges and am always open to collaborating on meaningful projects.`,
 
   github: "https://github.com/Zerubabel-J",
   resume:
