@@ -17,7 +17,7 @@ With two years of experience, I’ve worked on several live projects that are ac
 
   github: "https://github.com/Zerubabel-J",
   resume:
-    "https://drive.google.com/file/d/1YRhFAjKKfFtLgjeAYmB63q3MTRHRRWye/view?usp=sharing",
+    "https://drive.google.com/file/d/1dE9aLlAJSVmqFMvtfjVKb-vR8lb2AsSx/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/zerubabel-jember-53b7552a2/",
 };
 
