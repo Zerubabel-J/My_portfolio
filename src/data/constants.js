@@ -133,7 +133,7 @@ export const experiences = [
     img: "https://scontent.fadd3-1.fna.fbcdn.net/v/t39.30808-1/312377552_3496373190595375_342960098390982633_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=k3bK-2v6rqMQ7kNvgFa1nnv&_nc_ht=scontent.fadd3-1.fna&oh=00_AYBT6wU0Tbzf-Ta1cebINDMb4I33FNUmA0n6Vhi3QrI84Q&oe=667F0678",
     role: "Bootcamp Instructor",
     company: "Sage Training Institute",
-    date: "May-2024 - Current",
+    date: "May-2024 - February 2025",
     desc: `I am currently a MERN stack instructor at Sage Training Institute, responsible for teaching
 MERN Full Stack Website Development courses.`,
     skills: [
