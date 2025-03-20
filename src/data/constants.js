@@ -274,13 +274,11 @@ revolutionizing traditional coffee sourcing.`,
   },
   {
     id: 3,
-    title: "Evangadi Community Engagement Platform",
-    date: "Feb 2024 - March 2024",
-    description: `Developed a community forum platform, 
-        empowering Evangadi community members to create accounts, participate in discussions,
-         and share ideas effectively.`,
+    title: "Role-Based Ticketing System",
+    date: "Feb 2025 - March 20245",
+    description: `A role-based support ticketing system where users can create tickets and admins can manage them. Built with Node.js (Express.js) for the backend, React.js for the frontend, and MongoDB for the database.`,
     image:
-      "https://zerubabel-portfolio.vercel.app/assets/img/evangadi_forum.jpg",
+      "https://img.freepik.com/premium-photo/person-using-aidriven-job-matching-tools-find-suitable-job-opportunities_995578-18098.jpg?w=740",
     tags: [
       "React Js",
       "MySQL",
@@ -293,8 +291,8 @@ revolutionizing traditional coffee sourcing.`,
       "Postman",
     ],
     category: "web app",
-    github: "https://github.com/Zerubabel-J/Evangadi_Forum_Project",
-    webapp: " https://zerubabel-forum.netlify.app/",
+    github: "https://github.com/Zerubabel-J/Ticketing-System",
+    webapp: " https://ticketing-system-beta.vercel.app/",
   },
 
   // {
