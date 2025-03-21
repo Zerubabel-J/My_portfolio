@@ -11,13 +11,18 @@ export const Bio = {
   //  Previously, I worked as an IT Officer at the Bank of Abyssinia, where I gained hands-on experience troubleshooting technical issues and delivering IT solutions. I enjoy collaborating with clients and teams to develop applications that solve real-world problems and add value to users.
 
   // `,
-  description: `Greetings! I'm a full-stack developer with hands-on experience in building web and mobile applications. I work with JavaScript, TypeScript, React.js, Node.js (Express.js), and databases like MongoDB and PostgreSQL. I currently work as a freelance developer, focusing on developing scalable MERN stack applications and cross-platform mobile apps with React Native.
-
-With two years of experience, I’ve worked on several live projects that are actively running in production. Feel free to check out the project links in the projects section. I welcome challenges and am always open to collaborating on meaningful projects.`,
+  description: `Greetings! I’m a full-stack developer with over two years of experience building scalable web and mobile
+applications. Proficient in JavaScript, TypeScript, React.js, Node.js (Express.js), and databases like
+MongoDB and PostgreSQL,
+What drives me is turning ideas into functional, impactful products. I’ve worked on several projects
+that are now live and used by real users, and I take pride in writing clean, maintainable code that
+delivers value.
+I’m always eager to take on new challenges and collaborate on innovative projects that make a
+meaningful impact. Feel free to check out my projects below—I’d love to hear your thoughts!`,
 
   github: "https://github.com/Zerubabel-J",
   resume:
-    "https://drive.google.com/file/d/1dE9aLlAJSVmqFMvtfjVKb-vR8lb2AsSx/view?usp=sharing",
+    "https://drive.google.com/file/d/1ww6yVFbehpwjStySnrdLDfhW1h113uZ5/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/zerubabel-jember-53b7552a2/",
 };
 
