@@ -18,8 +18,7 @@ I focus on building tools that not only work well but also bring real value, whe
 I’m always open to collaborating on practical, meaningful projects where software can make a real difference!`,
 
   github: "https://github.com/Zerubabel-J",
-  resume,
-    "https://drive.google.com/file/d/1SNd6FHmkOETZrImb_3MIRsmNMQg8jzxR/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1SNd6FHmkOETZrImb_3MIRsmNMQg8jzxR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/zerubabel-jember-53b7552a2/",
 };
 
