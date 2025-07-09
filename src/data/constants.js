@@ -11,18 +11,15 @@ export const Bio = {
   //  Previously, I worked as an IT Officer at the Bank of Abyssinia, where I gained hands-on experience troubleshooting technical issues and delivering IT solutions. I enjoy collaborating with clients and teams to develop applications that solve real-world problems and add value to users.
 
   // `,
-  description: `Greetings! I’m a full-stack developer with over two years of experience building scalable web and mobile
-applications. Proficient in JavaScript, TypeScript, React.js, Node.js (Express.js), and databases like
-MongoDB and PostgreSQL,
-What drives me is turning ideas into functional, impactful products. I’ve worked on several projects
-that are now live and used by real users, and I take pride in writing clean, maintainable code that
-delivers value.
-I’m always eager to take on new challenges and collaborate on innovative projects that make a
-meaningful impact. Feel free to check out my projects below—I’d love to hear your thoughts!`,
+  description: `Greetings! I'm a Full-Stack and Automation Developer with 3 years of hands-on experience building production-ready web and mobile applications using React, Next.js, Node.js, and React Native. I also design and deploy automation workflows with n8n, connect systems through APIs, and integrate custom AI agents to reduce manual work and improve decision-making.
+
+I focus on building tools that not only work well but also bring real value—whether that’s saving time, improving accuracy, or making day-to-day operations more efficient. I focus on turning messy, repetitive workflows into reliable systems that run with minimal effort.
+
+I’m always open to collaborating on practical, meaningful projects where software can make a real difference!`,
 
   github: "https://github.com/Zerubabel-J",
   resume:
-    "https://drive.google.com/file/d/1ww6yVFbehpwjStySnrdLDfhW1h113uZ5/view?usp=sharing",
+    "https://drive.google.com/file/d/1SNd6FHmkOETZrImb_3MIRsmNMQg8jzxR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/zerubabel-jember-53b7552a2/",
 };
 
@@ -139,7 +136,7 @@ export const experiences = [
     role: "Bootcamp Instructor",
     company: "Sage Training Institute",
     date: "May-2024 - February 2025",
-    desc: `I am currently a MERN stack instructor at Sage Training Institute, responsible for teaching
+    desc: `I have worked as a MERN stack instructor at Sage Training Institute, responsible for teaching
 MERN Full Stack Website Development courses.`,
     skills: [
       "JavaScript",
@@ -208,14 +205,12 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG9D1aRA7BvIEyzXyTAMYQD5aVZNYtpqpbusIDVL2wZQ&s",
-    school: "Akaki PolyTechnic College",
-    date: "Oct 2020 - July 2022",
-    grade: "3.80/4 CGPA",
-    desc: `Learned computer hardware and software maintenance, IT support, 
-        and hardware/networking services during my time at polytechnic college.
-         Familiar in diagnosing technical issues, troubleshooting software, and assisting users.  `,
-    degree: "Bachelor of Science in Information Technology,",
+    img: `data:image/png;base64,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`,
+    school: "Addis Ababa Science and Technology University",
+    date: "Sep 2022 - Aug 2024",
+    grade: "3.75/4 CGPA",
+    desc: `Worked on multiple AI projects and research initiatives focused on NLP, text classification, transformer models, retrieval-augmented generation (RAG), and AI agents. Developed complete pipelines for data preprocessing, model training, and evaluation using Python and modern machine learning frameworks`,
+    degree: "Masters of Science in Computer Engineering",
   },
 ];
 
@@ -302,14 +297,14 @@ revolutionizing traditional coffee sourcing.`,
 
   // {
   //   id: 2,
-  //   title: "Amazon Clone Project",
+  //   title: "Amazon Clone Project"
   //   date: "Jan 2024 - Feb 2023",
   //   description: `Our Amazon clone project is a feature-rich e-commerce platform mirroring the
   //       functionality of the original site. It boasts a user-friendly interface for browsing, adding to cart,
   //       and securely purchasing a wide array of products. Users enjoy a seamless shopping experience,
   //       complemented by features like user authentication and other functionalities`,
   //   image: "https://zerubabel-portfolio.vercel.app/assets/img/amazon.jpg",
-  //   tags: [
+  //   tags: [e
   //     "React Js",
   //     "Node Js",
   //     "Redux",
