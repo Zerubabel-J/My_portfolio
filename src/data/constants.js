@@ -13,12 +13,12 @@ export const Bio = {
   // `,
   description: `Greetings! I'm a Full-Stack and Automation Developer with 3 years of hands-on experience building production-ready web and mobile applications using React, Next.js, Node.js, and React Native. I also design and deploy automation workflows with n8n, connect systems through APIs, and integrate custom AI agents to reduce manual work and improve decision-making.
 
-I focus on building tools that not only work well but also bring real value—whether that’s saving time, improving accuracy, or making day-to-day operations more efficient. I focus on turning messy, repetitive workflows into reliable systems that run with minimal effort.
+I focus on building tools that not only work well but also bring real value, whether that’s saving time, improving accuracy, or making day-to-day operations more efficient. I focus on turning messy, repetitive workflows into reliable systems that run with minimal effort.
 
 I’m always open to collaborating on practical, meaningful projects where software can make a real difference!`,
 
   github: "https://github.com/Zerubabel-J",
-  resume:
+  resume,
     "https://drive.google.com/file/d/1SNd6FHmkOETZrImb_3MIRsmNMQg8jzxR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/zerubabel-jember-53b7552a2/",
 };
