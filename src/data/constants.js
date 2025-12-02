@@ -112,12 +112,38 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
+   {
     id: 0,
+    img: "https://www.hydrus.ai/wp-content/uploads/2023/06/Hydrus.ai-4.png",
+    role: "AI Engineer",
+    company: "Hydrus.ai",
+    date: "July 2025- Current",
+    desc: `At Hydrus.ai, I design and implement AI-driven systems to improve oncology care workflows:
+
+Developed agentic systems and multi-agent workflow automations for oncology care.
+
+Built AI agents for visit preparation, symptom tracking, clinical trial matching, and caregiver communication.
+
+Leveraged LLMs, RAG, OCR, and advanced document processing to streamline clinical workflows and boost patient care efficiency.`,
+    skills: [
+      "Python",
+      "LangChain",
+      "RAG",
+      "LLMs",
+      "OCR",
+      "n8n",
+      "Next.js",
+      "Google Cloud",
+      "Docker",
+     
+    ],
+  },
+  {
+    id: 1,
     img: "https://addissoftware.com/wp-content/uploads/2024/03/Addissoftware-logo.svg",
     role: "Full-Stack Developer",
     company: "Addis Software",
-    date: "August 2024 - Current",
+    date: "August 2024 - February 2025",
     desc: `As a full-stack developer at Addis Software, I work with the MERN stack for web development and React Native for creating cross-platform mobile applications. This stack has been essential to my work and has helped me build scalable and efficient applications . `,
     skills: [
       "ReactJS",
@@ -130,7 +156,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://scontent.fadd3-1.fna.fbcdn.net/v/t39.30808-1/312377552_3496373190595375_342960098390982633_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=k3bK-2v6rqMQ7kNvgFa1nnv&_nc_ht=scontent.fadd3-1.fna&oh=00_AYBT6wU0Tbzf-Ta1cebINDMb4I33FNUmA0n6Vhi3QrI84Q&oe=667F0678",
     role: "Bootcamp Instructor",
     company: "Sage Training Institute",
@@ -147,28 +173,28 @@ MERN Full Stack Website Development courses.`,
     ],
   },
 
-  {
-    id: 2,
-    img: "https://zerubabel-forum.netlify.app/assets/evangadi_fav_icon-CFC3H2Hw.png",
-    role: "Fullstack Development Bootcamp",
-    company: "EvangadiTech Inc",
-    date: "Aug 2023 - Feb 2024",
-    desc: `Certified by EvangadiTech as a Full Stack Developer specializing in the MERN 
-        stack (MongoDB, Express.js, React.js, Node.js), I've completed an intensive program focusing on 
-        dynamic web application development. With hands-on experience in both front-end and back-end technologies`,
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Express.js",
-      "Mysql",
-      "MongoDB",
-    ],
-  },
+  // {
+  //   id: 2,
+  //   img: "https://zerubabel-forum.netlify.app/assets/evangadi_fav_icon-CFC3H2Hw.png",
+  //   role: "Fullstack Development Bootcamp",
+  //   company: "EvangadiTech Inc",
+  //   date: "Aug 2023 - Feb 2024",
+  //   desc: `Certified by EvangadiTech as a Full Stack Developer specializing in the MERN 
+  //       stack (MongoDB, Express.js, React.js, Node.js), I've completed an intensive program focusing on 
+  //       dynamic web application development. With hands-on experience in both front-end and back-end technologies`,
+  //   skills: [
+  //     "ReactJS",
+  //     "Redux",
+  //     "NodeJs",
+  //     "Material UI",
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "Express.js",
+  //     "Mysql",
+  //     "MongoDB",
+  //   ],
+  // },
   {
     id: 3,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAMFBMVEVHcEz25bHwv2busUPz15jvqzLwyXzvuFXwvmPvtk/yyX3utEzvu1zwwGfwqy7vrzvVWZWOAAAADnRSTlMACm7rH5g6rHvDTtuXV5hmHTQAAADLSURBVCiRtZJJEgMhCEVRjGM33P+2Acc2ZWWTiiv0UcD/CKDHeNjOdjUczLplfG2QiGOPXSL6hER4a3QxnSBRAc81OEEGSz/CsAnjbxDqkB3WsWfRUHyVV6EKjmg7s9wKZVQoVnlUWU5txD6M5EbIrURrbIDmQT+bj+EX5EudLeuBII7M5GRT0ujGUSlD7yE1TWBJvYesOPZXx+cmpckKbimVhGWCjOmeNqTNvrn4o/HpP/s8QP2evhxhcmtJH1C9WovfoX3ewPWv8AZM+RKkFt7epAAAAABJRU5ErkJggg==",
@@ -221,7 +247,7 @@ export const projects = [
     description: ` Arkena Coffee Marketplace connects Ethiopian smallholder producers with global buyers,
 revolutionizing traditional coffee sourcing.`,
     image:
-      "https://coffeetradecentre.com.au/wp-content/uploads/2024/11/1672809236536.webp",
+      "https://content.arkenacoffee.com/uploads/LP_Chamola_107_2fd6f639b6.jpg",
     tags: [
       "React Js",
       "MySQL",
