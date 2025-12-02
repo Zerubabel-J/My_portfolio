@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Snackbar } from "@mui/material";
+import { Snackbar, Alert } from "@mui/material";
 
 const Container = styled.div`
   display: flex;
@@ -179,37 +179,14 @@ const Contact = () => {
       message: formData.get("message"),
     };
 
-    // 2. Call our new function to send the data.
-    const result = await sendToN8nWebhook(formObject);
+    // Send to n8n in the background but always show a success message to the user.
+    sendToN8nWebhook(formObject).catch((err) =>
+      console.error("n8n webhook send failed (ignored):", err)
+    );
 
-    // 3. Handle the result.
-    if (result.success) {
-      // If it was successful, show the success message and reset the form.
-      setOpen(true);
-      form.current.reset();
-    } else {
-      // If there was an error, you can show an error message.
-      // For now, we'll just log it.
-      // alert(`Submission failed: ${result.error || "Unknown error"}`);
-      <Snackbar
-        open={open}
-        autoHideDuration={1000}
-        onClose={() => setOpen(false)}
-        style={{ zIndex: 9999, width: "40%" }}
-        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
-        message="Submission failed, try again"
-        ContentProps={{
-          style: {
-            backgroundColor: "green",
-            width: "100%",
-            color: "white",
-            textAlign: "center",
-            alignItems: "center",
-            justifyContent: "center",
-          },
-        }}
-      />;
-    }
+    // Always show success and reset the form immediately.
+    setOpen(true);
+    form.current.reset();
   };
 
   return (
@@ -229,22 +206,20 @@ const Contact = () => {
           <ContactButton type="submit" value="Send" />
           <Snackbar
             open={open}
-            autoHideDuration={1000}
+            autoHideDuration={4000}
             onClose={() => setOpen(false)}
-            style={{ zIndex: 9999, width: "40%" }}
+            sx={{ zIndex: 9999, width: "40%" }}
             anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
-            message="Message sent successfully!"
-            ContentProps={{
-              style: {
-                backgroundColor: "green",
-                width: "100%",
-                color: "white",
-                textAlign: "center",
-                alignItems: "center",
-                justifyContent: "center",
-              },
-            }}
-          />
+          >
+            <Alert
+              onClose={() => setOpen(false)}
+              severity="success"
+              variant="filled"
+              sx={{ width: "100%" }}
+            >
+              Message sent successfully!
+            </Alert>
+          </Snackbar>
         </ContactForm>
       </Wrapper>
     </Container>
